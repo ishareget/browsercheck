@@ -1,98 +1,15 @@
-.pos{
-  position: absolute;
-  top: 58%;
-  left: 37.5%;
-}
-.cirtop {
-    width: 200px;
-    height: 100px;
-    border-radius: 99em 99em 0 0;
-    background-color: rgb(49, 123, 235);
-    position: absolute;
-    animation: negcir;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: 35%;
-    left: 50%;
-    margin-top: -275px;
-    margin-left: -100px;
-    z-index: 2;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.cirdown {
-    width: 200px;
-    height: 100px;
-    border-radius: 0 0 99em 99em;
-    background-color: rgb(49, 123, 235);
-    position: absolute;
-    animation: cir;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    top: 35%;
-    left: 50%;
-    margin-top: -175px;
-    margin-left: -100px;
-    z-index: 2;
+#browserCheck {
+    background-color: rgb(238, 238, 238);
+    height: 730px;
+    ;
 }
 
-.dot {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background-color: rgb(15, 15, 238);
-    position: absolute;
-    margin-top: -190px;
-    top: 35%;
-    opacity: 0;
-}
-
-.dot-1 {
-    animation: dot 1s linear infinite 0s;
-}
-
-.dot-2 {
-    animation: dot 1s linear infinite 0.33s;
-}
-
-.dot-3 {
-    animation: dot 1s linear infinite 0.67s;
-}
-
-@keyframes dot {
-    0% {
-        left: 80%;
-        opacity: 0;
-    }
-    50% {
-        left: 60%;
-        opacity: 0.5;
-    }
-    100% {
-        left: 40%;
-        opacity: 1;
-    }
-}
-
-@keyframes cir {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(30deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes negcir {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(-30deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+.pos {
+    position: relative;
+  top:50%;
 }
