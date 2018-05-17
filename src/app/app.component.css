@@ -3,22 +3,21 @@
 }
 
 #browserCheck {
+    height: 815px;
     background-color: rgb(238, 238, 238);
+}
+
+.row {
+    margin: 0;
     height: 815px;
 }
 
-
-.row{
-  margin: 0;
-  height: 815px;
+.pos {
+    position: relative;
+    top: 40%;
 }
 
-.pos{
-  position: relative;
-  top: 40%;
-}
-
-.font-pos{
-  position: relative;
-  left: 10%;
+.font-pos {
+    position: relative;
+    left: 10%;
 }
