@@ -1,15 +1,24 @@
 * {
-    margin: 0;
-    padding: 0;
+    font-family: Microsoft JhengHei;
 }
 
 #browserCheck {
     background-color: rgb(238, 238, 238);
-    height: 730px;
-    ;
+    height: 815px;
 }
 
-.pos {
-    position: relative;
-  top:50%;
+
+.row{
+  margin: 0;
+  height: 815px;
+}
+
+.pos{
+  position: relative;
+  top: 40%;
+}
+
+.font-pos{
+  position: relative;
+  left: 10%;
 }
