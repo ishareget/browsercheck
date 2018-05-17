@@ -40,6 +40,9 @@ export class AppComponent {
         case 'ie':
           window.location.href = this.url.download;
           break;
+        default:
+          alert('建議使用Google Chrome瀏覽器進行瀏覽');
+          break;
       }
     }, 5000);
   }
