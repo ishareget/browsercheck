@@ -1,23 +1,12 @@
-* {
-    font-family: Microsoft JhengHei;
-}
-
-#browserCheck {
-    height: 815px;
-    background-color: rgb(238, 238, 238);
-}
-
-.row {
-    margin: 0;
-    height: 815px;
-}
-
 .pos {
-    position: relative;
-    top: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
 }
 
-.font-pos {
-    position: relative;
-    left: 10%;
-}
+/* .font-pos {
+    position: absolute;
+    margin-left: 38%;
+} */
