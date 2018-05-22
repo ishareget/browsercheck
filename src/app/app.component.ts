@@ -19,7 +19,7 @@ export class AppComponent {
   ) { }
 
   ngOnInit() {
-    // Cookie.get('checkBrowser') ? window.location.href = this.url.ishare : this.checkBrowser();
+    Cookie.get('checkBrowser') ? window.location.href = this.url.ishare : this.checkBrowser();
   }
 
 
